@@ -124,9 +124,18 @@ body {
 }
 
 .back-home {
-  text-decoration: underline;
-  cursor: pointer;
-  font-size: 15px;
+  display: inline-block;
+  background-color: #3fea33;
+  color: #fff;
+  border: 1px solid #3fea33;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.back-home:hover {
+  background-color: #3abe30;
+  border-color: #3abe30;
 }
 
 @media (max-width: 768px) {
