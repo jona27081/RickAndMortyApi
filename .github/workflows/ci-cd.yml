@@ -1,10 +1,10 @@
 #1
-name: Release CI CD
+name: Master CI CD
 on: 
   push:
-    branches: [ "release"]
+    branches: [ "master"]
   pull_request:
-    branches: [ "release"]
+    branches: [ "master"]
 jobs:
   master_ci_cd:
     runs-on: ubuntu-latest
